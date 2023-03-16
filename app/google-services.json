@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "551636618391",
+    "firebase_url": "https://choresplitfinal-default-rtdb.firebaseio.com",
+    "project_id": "choresplitfinal",
+    "storage_bucket": "choresplitfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551636618391:android:55d6e73a9c60deff316dd2",
+        "android_client_info": {
+          "package_name": "edu.neu.madcourse.choresplit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551636618391-3pgcrtmqu70le1b7k2he5rk9de051p9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZf-ObfqDXifLdIQ46naQaiuDB2lNND-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551636618391-3pgcrtmqu70le1b7k2he5rk9de051p9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/group_home_top_bar_weekly_leaderboard"
+        android:icon="@drawable/ic_leaderboard_icon"
+        android:iconTint="#000000"
+        android:title="Weekly Leaderboard"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/group_home_top_bar_settings"
+        android:icon="@drawable/ic_outline_settings_24"
+        android:iconTint="#000000"
+        android:title="Settings"
+        app:showAsAction="always" />
+</menu>

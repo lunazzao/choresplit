@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ChoreSplit</string>
+    <string name="group_home_scroll_view_text">List of tasks</string>
+    
+    <string name="notification_channel_id_new_task">notification_channel_new_task</string>
+    <string name="notification_channel_name_new_task">New task added</string>
+    <string name="notification_channel_description_new_task">Notification when a new task is added</string>
+
+    <string name="notification_channel_id_completed_task">notification_channel_completed_task</string>
+    <string name="notification_channel_name_completed_task">Task completed</string>
+    <string name="notification_channel_description_completed_task">Notification when a task is completed</string>
+
+    <string name="notification_channel_id_approved_task">notification_channel_approved_task</string>
+    <string name="notification_channel_name_approved_task">Task approved</string>
+    <string name="notification_channel_description_approved_task">Notification when a task is approved</string>
+
+    <string name="notification_channel_id_new_user">notification_channel_new_user</string>
+    <string name="notification_channel_name_new_user">New user joined</string>
+    <string name="notification_channel_description_new_user">Notification when a user joins the group</string>
+</resources>

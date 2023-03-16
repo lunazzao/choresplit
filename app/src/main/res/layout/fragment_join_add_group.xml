@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JoinAddGroup.JoinAddGroup">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            app:layout_constraintBottom_toTopOf="@+id/suggested_tasks_bar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <Button
+            android:id="@+id/joinGroupButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="60dp"
+            android:text="Join Group"
+            app:layout_constraintBottom_toTopOf="@+id/createGroupInput"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/joinGroupInput" />
+
+        <Button
+            android:id="@+id/createGroupButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="153dp"
+            android:text="Create group"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/createGroupInput" />
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/suggested_tasks_bar"
+            android:layout_width="416dp"
+            android:layout_height="64dp"
+            android:layout_marginBottom="136dp"
+            app:layout_constraintBottom_toTopOf="@+id/joinGroupInput"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/appBarLayout2"
+
+            app:navigationContentDescription="Back"
+            app:navigationIcon="@drawable/ic_outline_arrow_back_24"
+            app:navigationIconTint="#000000"
+            app:titleTextAppearance="@style/TextAppearance.AppCompat.Large"
+            app:titleTextColor="#000" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/joinGroupInput"
+            android:layout_width="291dp"
+            android:layout_height="79dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="30dp"
+            android:hint="Enter group id"
+            app:layout_constraintBottom_toTopOf="@+id/joinGroupButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/suggested_tasks_bar" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/createGroupInput"
+            android:layout_width="291dp"
+            android:layout_height="73dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="19dp"
+            android:layout_weight="1"
+            android:hint="Enter group name"
+            app:layout_constraintBottom_toTopOf="@+id/createGroupButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/joinGroupButton" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
